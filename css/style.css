@@ -316,6 +316,11 @@ nav ul li a:hover {
 .language-section:hover .heading:before{
     background:#333366;
 }
+.language-section .heading h2{
+    transition: 2s;
+    -webkit-transition:2s;
+    -moz-transition: 2s;
+}
 .language-section .heading:before{
     left: 50%;
     transform: translate(-50%);
