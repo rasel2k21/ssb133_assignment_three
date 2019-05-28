@@ -1,0 +1,527 @@
+/********** Header-section ***********/
+header{
+    background: #fff;
+    padding: 32px;
+}
+.logo{
+    width: 20%;
+    float: left;
+}
+.logo a{
+    font-weight: 700;
+}
+.logo h3{
+    font-size: 28px;
+    text-transform: uppercase;
+    color: #333366;
+}
+nav {
+    width: 80%;
+    float: left;
+}
+
+nav ul {
+    list-style: none;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline-block;
+    padding-left: 20px;
+}
+
+nav ul li a {
+    display: block;
+    color: #28367e;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+    padding-left: 5px;
+    transition: .8s;
+    -webkit-transition:.8s;
+    -moz-transition: .8s;
+}
+
+nav ul li a:hover {
+    color: #f2622c;
+
+}
+
+/*********** banner section ***********/
+.banner-section{
+    background-image: url("../images/banner_bg_1.png"), url("../images/banner_bg_2.png");
+    min-height: 560px;
+    background-repeat: no-repeat, no-repeat;
+    background-position: left top, right bottom;
+    position: relative;
+}
+.banner-content{
+    text-align: center;
+}
+.banner-content h1{
+    position: absolute;
+    color: #fff;
+    font-size: 52px;
+    text-transform: uppercase;
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.banner-content i{
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    color: #fff;
+    transform: translate(-50%,0px);
+}
+
+/*********** who we are section ***********/
+.who-we-are-section{
+    margin: 30px;
+    padding: 50px;
+}
+.who-we-are-content{
+    width: 65%;
+    float: left;
+    padding: 15px 100px 0 0;
+}
+.who-we-are-content h2{
+    transition: 2s;
+    -webkit-transition:2s;
+    -moz-transition: 2s;
+}
+.who-we-are-content .heading:before{
+    transition: 2s;
+    -webkit-transition:2s;
+    -moz-transition: 2s;
+}
+.who-we-are-content:hover h2{
+    color: #ff6633;
+}
+.who-we-are-content:hover .heading:before{
+    background: #333366;
+}
+.who-we-are-img{
+    width: 35%;
+    float: left;
+}
+.who-we-are-img img{
+    width: 100%;
+    transition: 2s;
+    -webkit-transition:2s;
+    -moz-transition: 2s;
+}
+.who-we-are-img:hover img{
+    opacity: .8;
+}
+/*********** what we do section ***********/
+.what-we-do-section{
+    padding-top: 50px;
+    background: #f7f8f8;
+    background-image: url("../images/what_we_do_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    padding-bottom: 100px;
+}
+.what-we-do-section .heading{
+    text-align: center;
+}
+.what-we-do-section .heading h2{
+    transition: 2s;
+    -webkit-transition:2s;
+    -moz-transition: 2s;
+}
+.what-we-do-section .heading:before{
+    left: 50%;
+    transform: translate(-50%);
+     transition: 2s;
+    -webkit-transition:2s;
+    -moz-transition: 2s;
+}
+.what-we-do-section:hover h2{
+    color: #ff6633;
+}
+.what-we-do-section:hover .heading:before{
+    background: #333366;
+}
+.what-we-do{
+    margin-top: 35px;
+    position: relative;
+}
+.what-we-do-box{
+    padding: 10px;
+    width: 33.33%;
+    float: left;
+    position: relative;
+}
+.what-we-do-box:before{
+    content: "";
+    position: absolute;
+    width: 95%;
+    height: 96%;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#333399+0,333399+60&0.69+43,1+56 */
+    background: -moz-linear-gradient(top,  rgba(51,51,153,0.69) 0%, rgba(51,51,153,0.69) 43%, rgba(51,51,153,1) 56%, rgba(51,51,153,1) 60%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(51,51,153,0.69) 0%,rgba(51,51,153,0.69) 43%,rgba(51,51,153,1) 56%,rgba(51,51,153,1) 60%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(51,51,153,0.69) 0%,rgba(51,51,153,0.69) 43%,rgba(51,51,153,1) 56%,rgba(51,51,153,1) 60%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b0333399', endColorstr='#333399',GradientType=0 ); /* IE6-9 */
+    visibility:hidden;
+}
+.what-we-do-box:hover:before{
+    visibility: visible;
+    opacity: .5;
+}
+.what-we-do-box img{
+    width: 100%;
+}
+.what-we-do-box h4{
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #fff;
+    position: absolute;
+    text-align: center;
+    top: 70%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    transition: .5s ease all;
+    -webkit-transition: .5s ease all;
+}
+.what-we-do-box:hover h4{
+    top: 50%;
+}
+.what-we-do-box a{
+    color: #fff;
+    display: block;
+    font-size: 30px;
+}
+.what-we-do-box i{
+    position: absolute;
+    text-align: center;
+    top: 90%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    transition: .5s ease all;
+    -webkit-transition: .5s ease all;
+    visibility: hidden;
+}
+.what-we-do-box:hover i{
+    top: 70%;
+    visibility: visible;
+}
+
+/*********** our attorney section ***********/
+.our-attorney-section{
+    background-image: url("../images/attorney_bg.png");
+    background-repeat: no-repeat;
+    padding: 120px 0 100px;
+}
+.attorney-content{
+    width: 30%;
+    float: left;
+    margin-top: 150px;
+    padding-right: 50px;
+}
+.attorney-content p{
+    font-family: 'Open Sans', sans-serif;
+    color: #999999;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+.attorney-content .heading h2{
+    color: #fff;
+    transition: 2s;
+    -webkit-transition:2s;
+    -moz-transition: 2s;
+}
+.attorney-content .heading:before{
+    transition: 2s;
+    -webkit-transition:2s;
+    -moz-transition: 2s;
+}
+.attorney-content:hover h2{
+    color: #ff6633;
+}
+.attorney-content:hover .heading:before{
+    background: #fff;
+}
+.attorney-content .see-more:hover{
+    color: #fff;
+     transition: 2s;
+    -webkit-transition:2s;
+    -moz-transition: 2s;
+}
+.attorney-img{
+    width: 70%;
+    float: left;
+}
+.attorney-box{
+    width: 50%;
+    float: left;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+.attorney-box img{
+    width: 100%;
+}
+.attorney-img h4{
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #fff;
+    position: absolute;
+    text-align: center;
+    top: 70%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    transition: .5s ease all;
+    -webkit-transition: .5s ease all;
+}
+.attorney-img :hover h4{
+    top: 50%;
+}
+.attorney-box:before{
+    content: "";
+    position: absolute;
+    width: 95%;
+    height: 96%;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#333399+0,333399+60&0.69+43,1+56 */
+    background: -moz-linear-gradient(top,  rgba(51,51,153,0.69) 0%, rgba(51,51,153,0.69) 43%, rgba(51,51,153,1) 56%, rgba(51,51,153,1) 60%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(51,51,153,0.69) 0%,rgba(51,51,153,0.69) 43%,rgba(51,51,153,1) 56%,rgba(51,51,153,1) 60%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(51,51,153,0.69) 0%,rgba(51,51,153,0.69) 43%,rgba(51,51,153,1) 56%,rgba(51,51,153,1) 60%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b0333399', endColorstr='#333399',GradientType=0 ); /* IE6-9 */
+    visibility:hidden;
+}
+.attorney-box:hover:before{
+    visibility: visible;
+    opacity: .5;
+}
+/*********** language section  ***********/
+.language-section{
+    padding: 80px 0;
+}
+.language-content{
+    overflow: hidden;
+}
+.language-section .heading{
+    text-align: center;
+}
+.language-section:hover .heading h2{
+    color: #ff6633;
+         transition: 2s;
+    -webkit-transition:2s;
+    -moz-transition: 2s;
+}
+.language-section:hover .heading:before{
+    background:#333366;
+}
+.language-section .heading:before{
+    left: 50%;
+    transform: translate(-50%);
+     transition: 2s;
+    -webkit-transition:2s;
+    -moz-transition: 2s;
+}
+.language-box{
+    width: 25%;
+    float: left;
+    padding: 15px;
+    position: relative;
+}
+.language-box :before{
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 40px;
+    background: #f2622c;
+    left: 50%;
+    transform: translate(-50%);
+    top: 0px;
+    visibility: hidden;
+    }
+.language-box :hover:before{
+    visibility: visible;
+    transition: 2s;
+    -webkit-transition:2s;
+    -moz-transition: 2s;
+}
+.language-box h5{
+    text-align: center;
+    color: #333366;
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+.language-box .see-more:hover{
+    color: #333366;
+     transition: 2s;
+    -webkit-transition:2s;
+    -moz-transition: 2s;
+}
+
+/*********** contact us section  ***********/
+.contact-us-section{
+    background: #28377e;
+    padding: 60px 0 80px;
+}
+.contact-us-section .heading{
+    text-align: center;
+}
+.contact-us-section .heading h2{
+    color: #fff;
+     transition: 2s;
+    -webkit-transition:2s;
+    -moz-transition: 2s;
+}
+.contact-us-section:hover .heading h2{
+    color: #ff6633;
+}
+.contact-us-section .heading:before{
+    left: 50%;
+    transform: translate(-50%);
+     transition: 2s;
+    -webkit-transition:2s;
+    -moz-transition: 2s;
+}
+.contact-us-section:hover .heading:before{
+    background: #fff;
+}
+.contact-form{
+    width: 50%;
+    margin: auto;
+}
+.contact-form form{}
+.contact-form form input{
+    display: block;
+    background: transparent;
+    border: none;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #4759a7;
+    width: 100%;
+    outline: none;
+    padding: 4px 0;
+    color: #fff;
+}
+.contact-form form textarea{
+    display: block;
+    background: transparent;
+    border: none;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #4759a7;
+    width: 100%;
+    outline: none;
+    padding: 4px 0;
+    color: #fff;
+    resize: none;
+}
+.contact-form form .btn{
+    font-size: 12px;
+     border: none;
+     display: block;
+     margin: 20px auto;
+     border-bottom: 1px solid #7b87928a;
+     width: 25%;
+     padding: 13px 0;
+     color: #fff;
+     background: #ff6633;
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 600;
+     text-transform: uppercase;
+     border-radius: 5px;
+}
+.contact-form form .btn:hover{
+    color:#ff6633;
+    background:#fff;
+    transition: 1s;
+    -webkit-transition:1s;
+    -moz-transition: 1s;
+}
+
+/*********** footer section ***********/
+
+/*footer*/
+footer{
+    background: #000033;
+    padding: 40px 0 30px;
+}
+.footer-content{
+    width: 50%;
+    float: left;
+}
+.copyright{
+ font-size: 14px;
+ color: #fff;
+}
+.copyright a{
+    text-decoration: none;
+    color: #616ca8;
+}
+.copyright a:hover{
+    color: #f2622c;
+     transition: 1s;
+    -webkit-transition:1s;
+    -moz-transition: 1s;
+}
+.footer-social-icon{
+    width: 50%;
+    float: left;
+}
+.footer-social-icon ul{
+    text-align: right;
+}
+.footer-social-icon ul li{
+    list-style: none;
+    display: inline-block;
+}
+.footer-social-icon ul li a{
+    color: #fff;
+    display: block;
+    padding: 5px 10px;
+}
+.footer-social-icon ul li .facebook:hover{
+    background: #fff;
+    color: #395599;
+    transition: 2s;
+    -webkit-transition: 2s;
+    -moz-transition: 2s;
+     border-radius: 5px;
+}
+.footer-social-icon ul li .linkedin:hover{
+    background: #0271ae;
+    transition: 2s;
+    -webkit-transition:2s;
+    -moz-transition: 2s;
+     border-radius: 5px;
+}
+.footer-social-icon ul li .youtube:hover{
+    background: #fff;
+    color: #f70002;
+    transition: 2s;
+    -webkit-transition:2s;
+    -moz-transition: 2s;
+     border-radius: 5px;
+}
+.footer-social-icon ul li .instagram:hover{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f12e03+1,c03085+46,7939ac+100 */
+    background: #f12e03; /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover,  #f12e03 1%, #c03085 46%, #7939ac 100%); /* FF3.6-15 */
+    background: -webkit-radial-gradient(center, ellipse cover,  #f12e03 1%,#c03085 46%,#7939ac 100%); /* Chrome10-25,Safari5.1-6 */
+    background: radial-gradient(ellipse at center,  #f12e03 1%,#c03085 46%,#7939ac 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f12e03', endColorstr='#7939ac',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    color: #fff;
+    transition: 2s;
+    -webkit-transition:2s;
+    -moz-transition: 2s;
+     border-radius: 5px;
+}
+.footer-social-icon ul li .pinterest:hover{
+    background: #c51f26;
+    color: #fff;
+    transition: 2s;
+    -webkit-transition:2s;
+    -moz-transition: 2s;
+    border-radius: 5px;
+}
